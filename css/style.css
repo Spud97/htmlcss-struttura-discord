@@ -1,0 +1,133 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-size: 16px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header {
+  background-color: #add8e6;
+}
+
+:root {
+  --yellowbox: #daa520;
+}
+
+#login {
+  text-align: end;
+}
+
+#blackcontainer {
+  padding: 10px 10px 40px;
+}
+
+#newblackcontainer {
+  padding: 30px 10px 0px;
+}
+
+header .container {
+  padding: 20px 10px;
+}
+
+main .container {
+  padding: 50px 10px;
+}
+
+.container {
+  width: 100%;
+  max-width: 960px;
+  min-width: 300px;
+  margin: 0 auto;
+  display: flex;
+}
+
+.box {
+  border: 2px dashed black;
+  padding: 10px;
+}
+
+.boxyellow1 {
+  width: 20%;
+  background-color: var(--yellowbox);
+}
+
+.boxyellow2 {
+  flex-grow: 1;
+  text-align: center;
+  background-color: var(--yellowbox);
+}
+
+.bluesection {
+  background-color: #00008b;
+}
+
+.greysection {
+  background-color: #d3d3d3;
+}
+
+.blacksection {
+  background-color: #23272a;
+}
+
+.boxlilla {
+  min-width: 700px;
+  min-height: 380px;
+  background-color: #ee82ee;
+  margin: 0 auto;
+}
+
+.boxblue {
+  min-width: 65%;
+  min-height: 400px;
+  background-color: #1e90ff;
+}
+
+.boxpink {
+  min-width: 35%;
+  min-height: 400px;
+  background-color: #ffc0cb;
+}
+
+.reverse {
+  flex-direction: row-reverse;
+}
+
+.boxgreen {
+  min-width: 100%;
+  min-height: 600px;
+  background-color: #228b22;
+  margin: 0 auto;
+}
+
+.boxdarkpink {
+  min-height: 500px;
+  background-color: #f08080;
+  flex-grow: 2;
+}
+
+.boxbluegreen {
+  min-height: 500px;
+  background-color: #20b2aa;
+  border: 2px dashed white;
+  flex-grow: 1;
+}
+
+.boxlightgreen {
+  min-height: 70px;
+  min-width: 100%;
+  background-color: #7fffd4;
+  display: flex;
+  border: none;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0px;
+}
+
+.boxnewpink {
+  background-color: #ffb6c1;
+  padding: 5px;
+}
